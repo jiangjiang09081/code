@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)testData:(NSString *)title;
 
+- (void)refreshData:(NSString *)data;
 @end
 
 NS_ASSUME_NONNULL_END

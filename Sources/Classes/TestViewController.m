@@ -16,11 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self refreshData:@"更新版本库"];
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 200, 80, 80)];
+    button.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:button];
     // Do any additional setup after loading the view.
 }
 
 - (void)testData:(NSString *)title{
     NSLog(@"%@", title);
+}
+
+- (void)refreshData:(NSString *)data{
+    NSLog(@"%@", data);
 }
 
 /*
